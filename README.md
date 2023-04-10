@@ -14,19 +14,19 @@ Based on all this past information, you want to build a model which will predict
 
  the steps that were performed throughout the model building and model evaluation were:
  1. Data cleaning and preparation
-   - Combining three dataframes
-   - Handling categorical variables
+    - Combining three dataframes
+    - Handling categorical variables
        - Mapping categorical variables to integers
        - Dummy variable creation
-   - Handling missing values
+    - Handling missing values
 2. Test-train split and scaling
 3. Model Building
-  - Feature elimination based on correlations
-  - Feature selection using RFE (Coarse Tuning)
-  - Manual feature elimination (using p-values and VIFs)
+   - Feature elimination based on correlations
+   - Feature selection using RFE (Coarse Tuning)
+   - Manual feature elimination (using p-values and VIFs)
 4. Model Evaluation
-  - Accuracy
-  - Sensitivity and Specificity
-  - Optimal cut-off using ROC curve
-  - Precision and Recall
+   - Accuracy
+   - Sensitivity and Specificity
+   - Optimal cut-off using ROC curve
+   - Precision and Recall
 5. Predictions on the test set
