@@ -14,11 +14,11 @@ Based on all this past information, you want to build a model which will predict
 
  the steps that were performed throughout the model building and model evaluation were:
  1. Data cleaning and preparation
-    - Combining three dataframes
-    - Handling categorical variables
-        - Mapping categorical variables to integers
-        - Dummy variable creation
-    - Handling missing values
+   - Combining three dataframes
+   - Handling categorical variables
+       - Mapping categorical variables to integers
+       - Dummy variable creation
+   - Handling missing values
 2. Test-train split and scaling
 3. Model Building
   - Feature elimination based on correlations
